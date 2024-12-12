@@ -1,0 +1,40 @@
+@media (min-width: 992px) {
+    .chicken-sec,
+    .beef-sec,
+    .sushi-sec {
+        float: left !important; 
+         
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {  
+    
+    .chicken-sec,
+    .beef-sec {
+        margin: 0 auto !important;
+        width: 48% !important;
+        margin-bottom: 30px !important;
+    }
+
+    .chicken-sec {
+        margin-right: 30px !important;
+    }
+
+    .sushi-sec {
+        clear: both !important; 
+        width: 100% !important; 
+    }
+}
+
+/* Mobile View (≤ 767px) */
+@media (max-width: 767px) {
+    .chicken-sec,
+    .beef-sec,
+    .sushi-sec {
+        margin: 0 !important;
+        margin-bottom: 30px !important;
+        float: none !important; 
+        width: 100% !important; 
+        clear: both !important;
+    }
+}
